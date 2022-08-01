@@ -1,4 +1,4 @@
-public class Bus implements TransportDepot{
+public class Bus implements Transport {
     private int ticketPrice = 40;
     private int capacity = 55;
     private int serviceCost = 50_000;
