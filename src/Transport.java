@@ -7,4 +7,7 @@ public interface Transport extends Comparable<Transport> {
     default int compareTo(Transport o) {
         return Integer.compare(getMonthIncome(), o.getMonthIncome());
     }
+
+    String toString();
+
 }

@@ -46,7 +46,7 @@ public class TransportCompany {
     };
 
     public List<Transport> getTotalCarried(int count) {
-        transport.sort(byCarried);
+        Collections.sort(transport, (o1, o2) -> o1.compareTo(o2));
         Collections.reverse(transport);
         return transport.subList(0, count);
     }
