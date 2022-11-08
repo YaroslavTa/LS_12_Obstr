@@ -22,6 +22,8 @@ public class Main {
         BinaryOperator<String> binaryOperator = (s, s2) -> s.toLowerCase() + " " + s2.toUpperCase();
 
         System.out.println(binaryOperator.apply("КНИГАГРАД","кознакрат"));
+        System.out.println(binaryOperator.apply("КНИГАГРАД","кознакрат"));
+        System.out.println(binaryOperator.apply("КНИГАГРАД","кознакрат"));
 
         BiFunction<Integer, Integer, String> biFunction = (i, q) -> {
             String lol = "Харек";
